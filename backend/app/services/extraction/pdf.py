@@ -1,4 +1,4 @@
-import fitz
+import pymupdf
 from pathlib import Path
 
 
@@ -21,7 +21,7 @@ def extract_text_from_pdf(file_path: str) -> str:
     if path.suffix.lower() != ".pdf":
         raise ValueError("File must be a PDF")
 
-    document = fitz.open(file_path)
+    document = pymupdf.open(file_path)
 
     pages_text = []
 
