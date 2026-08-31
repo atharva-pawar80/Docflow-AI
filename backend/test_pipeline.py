@@ -1,0 +1,17 @@
+from backend.app.services.pipeline.document_pipeline import (
+    process_document
+)
+
+
+file_path = "data/raw/banner bill .pdf"
+
+result = process_document(file_path)
+
+print("\n========== DOCUMENT PIPELINE ==========\n")
+
+print("Document type:", result["document_type"])
+
+print("\n========== EXTRACTED TEXT ==========\n")
+print(result["text"])
+
+print("\n====================================")

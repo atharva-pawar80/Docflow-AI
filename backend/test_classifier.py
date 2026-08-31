@@ -3,21 +3,27 @@ from backend.app.services.classification.document_classifier import (
 )
 
 
-invoice_text = """
-INVOICE
+bill_text = """
+Helix Studio
 
 Date: June 8, 2026
-
-Helix studio
 
 Bill To:
 Suchita Ghute
 
-Payment Status:
-unpaid
+Banner
+Quantity: 3
+Rate: ₹300
+Amount: ₹900
+
+Subtotal: ₹900
+Tax: ₹0
+Total: ₹900
+
+Payment Status: Unpaid
 """
 
 
-result = classify_document(invoice_text)
+result = classify_document(bill_text)
 
 print("Document type:", result)

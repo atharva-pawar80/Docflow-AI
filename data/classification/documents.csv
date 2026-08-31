@@ -1,0 +1,16 @@
+text,label
+"Bill To customer Date subtotal tax total amount due invoice number",invoice
+"Vendor bill payment terms subtotal GST total amount payable",invoice
+"Customer name billing address tax total balance due",invoice
+"Invoice date seller buyer quantity rate amount subtotal",invoice
+"Bill number customer details GST amount payable total",invoice
+"Items purchased quantity price total paid by UPI",receipt
+"Store purchase date items amount paid cash",receipt
+"Thank you for your purchase total paid by card",receipt
+"Product quantity price total payment received",receipt
+"Shopping receipt items purchased subtotal total",receipt
+"Student education skills experience projects",unknown
+"Employee name department joining date salary",unknown
+"Account balance transaction history account number",unknown
+"Job application education experience skills",unknown
+"Meeting agenda attendees action items",unknown
