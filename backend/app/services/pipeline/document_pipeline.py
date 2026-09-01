@@ -1,25 +1,23 @@
-from backend.app.services.extraction.pdf import (
-    extract_text_from_pdf
-)
+from backend.app.services.extraction.pdf import extract_text_from_pdf
 
-from backend.app.services.classification.document_classifier import (
-    classify_document
+from backend.app.services.classification.predict import (
+    predict_document
 )
 
 
 def process_document(file_path: str) -> dict:
     """
-    Run a document through the initial processing pipeline.
+    Process a document through the DocFlow pipeline.
 
     Pipeline:
-        PDF → Text Extraction → Classification
+        PDF → Text Extraction → ML Classification
     """
 
     # Step 1: Extract text
     text = extract_text_from_pdf(file_path)
 
-    # Step 2: Classify document
-    document_type = classify_document(text)
+    # Step 2: Classify using trained ML model
+    document_type = predict_document(text)
 
     return {
         "file_path": file_path,
