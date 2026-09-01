@@ -5,7 +5,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, accuracy_score
-
+from sklearn.metrics import (
+    classification_report,
+    accuracy_score,
+    confusion_matrix
+)
 
 DATA_PATH = "data/classification/documents.csv"
 
@@ -69,3 +73,14 @@ print("\nAccuracy:", accuracy)
 
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
+
+print("\nConfusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+
+
+train_pred = classifier.predict(X_train)
+train_accuracy = accuracy_score(y_train, train_pred)
+
+print("\nTraining Accuracy:", train_accuracy)
+print("Testing Accuracy:", accuracy)
