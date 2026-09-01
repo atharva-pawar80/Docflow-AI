@@ -6,21 +6,17 @@ from backend.app.services.classification.predict import (
 
 
 def process_document(file_path: str) -> dict:
-    """
-    Process a document through the DocFlow pipeline.
-
-    Pipeline:
-        PDF → Text Extraction → ML Classification
-    """
 
     # Step 1: Extract text
     text = extract_text_from_pdf(file_path)
 
-    # Step 2: Classify using trained ML model
-    document_type = predict_document(text)
+    # Step 2: ML classification
+    classification = predict_document(text)
 
     return {
         "file_path": file_path,
-        "document_type": document_type,
+        "document_type": classification["document_type"],
+        "confidence": classification["confidence"],
+        "probabilities": classification["probabilities"],
         "text": text
     }
