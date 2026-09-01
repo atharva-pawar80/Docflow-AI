@@ -4,13 +4,28 @@ text,label
 "Customer name billing address tax total balance due",invoice
 "Invoice date seller buyer quantity rate amount subtotal",invoice
 "Bill number customer details GST amount payable total",invoice
+"Seller buyer billing address item quantity rate subtotal tax total",invoice
+"Amount payable billing date customer details tax subtotal",invoice
+"Purchase order billing details quantity unit price tax total amount due",invoice
+"Business customer bill date items subtotal tax payment terms",invoice
+"Customer billing information product quantity price total payable",invoice
 "Items purchased quantity price total paid by UPI",receipt
 "Store purchase date items amount paid cash",receipt
 "Thank you for your purchase total paid by card",receipt
 "Product quantity price total payment received",receipt
 "Shopping receipt items purchased subtotal total",receipt
+"Purchase date store items quantity amount payment method",receipt
+"Cash payment received products purchased total amount",receipt
+"Customer purchase transaction items total paid",receipt
+"Store bill items purchased tax total paid",receipt
+"Payment received purchase items amount change returned",receipt
 "Student education skills experience projects",unknown
 "Employee name department joining date salary",unknown
 "Account balance transaction history account number",unknown
 "Job application education experience skills",unknown
 "Meeting agenda attendees action items",unknown
+"Project requirements milestones team members",unknown
+"University course subjects semester grades",unknown
+"Company employee attendance department details",unknown
+"Software project architecture modules requirements",unknown
+"Customer feedback product comments suggestions",unknown

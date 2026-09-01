@@ -1,14 +1,71 @@
 import pandas as pd
+
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, accuracy_score
 
 
 DATA_PATH = "data/classification/documents.csv"
 
+
+# 1. Load dataset
 df = pd.read_csv(DATA_PATH)
 
-print(df.head())
+print("Dataset:")
+print(df)
+
+
+# 2. Separate input and target
+X = df["text"]
+y = df["label"]
+
+
+# 3. Train/Test split
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.2,
+    random_state=42,
+    stratify=y
+)
+
+
+print("\nTraining samples:", len(X_train))
+print("Testing samples:", len(X_test))
+
+
+# 4. Create ML pipeline
+classifier = Pipeline([
+    (
+        "tfidf",
+        TfidfVectorizer(
+            lowercase=True,
+            ngram_range=(1, 2)
+        )
+    ),
+    (
+        "model",
+        LogisticRegression(
+            max_iter=1000
+        )
+    )
+])
+
+
+# 5. Train
+classifier.fit(X_train, y_train)
+
+
+# 6. Predict on unseen test data
+y_pred = classifier.predict(X_test)
+
+
+# 7. Evaluate
+accuracy = accuracy_score(y_test, y_pred)
+
+print("\nAccuracy:", accuracy)
+
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
