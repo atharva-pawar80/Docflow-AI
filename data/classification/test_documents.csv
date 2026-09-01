@@ -1,0 +1,16 @@
+text,label
+"GST TAX INVOICE Invoice No INV-2026-1042 Seller ABC Technologies Bill To XYZ Solutions Cloud hosting service Subtotal 8500 GST 1530 Total 10030 Payment due within 15 days",invoice
+"INVOICE Customer: Raj Enterprises Vendor: Tech Solutions Invoice Date: August 12 2026 Items Laptop quantity 2 rate 55000 Amount 110000 Tax 19800 Grand Total 129800",invoice
+"SALES INVOICE Bill To: Sunrise Pvt Ltd Product: Website Development Quantity 1 Rate 45000 Subtotal 45000 CGST 4050 SGST 4050 Total Payable 53100",invoice
+"Tax Invoice No TX-7821 Supplier: Digital Systems Buyer: Modern Retail Services HSN Code 8471 Taxable Value 72000 GST 12960 Net Amount 84960",invoice
+"SERVICE INVOICE Date September 1 2026 Client ABC Media Design Services 3 hours at 2000 per hour Subtotal 6000 Tax 1080 Amount Due 7080",invoice
+"THANK YOU FOR SHOPPING City Mart Purchase Date August 14 2026 Milk 60 Bread 45 Biscuits 30 Total 135 Paid by Card",receipt
+"PAYMENT RECEIPT Transaction ID 78421 Customer Priya Sharma Amount Received 2500 Payment Method UPI Date August 20 2026",receipt
+"RETAIL RECEIPT Fresh Store Item Rice 450 Oil 160 Sugar 50 Discount 20 Total 640 Cash Received 700 Change 60",receipt
+"PURCHASE RECEIPT Store XYZ Date August 25 2026 Product Headphones Quantity 1 Price 1499 Amount Paid 1499 Card Payment",receipt
+"POS RECEIPT Merchant Cafe Corner Coffee 120 Sandwich 180 Total 300 Payment Received UPI Transaction 98231",receipt
+"STUDENT ACADEMIC RECORD Student Name Amit Patil Course Artificial Intelligence Semester Four Subject Data Mining Grade A Operating Systems Grade B Plus",unknown
+"EMPLOYEE INFORMATION Employee ID EMP104 Department Engineering Joining Date July 10 2026 Role Software Developer Annual Salary 720000",unknown
+"MEETING AGENDA Team meeting September 5 Attendees Project Manager Developers Discussion Topics Sprint Planning Product Roadmap Action Items",unknown
+"JOB APPLICATION Candidate Name Neha Sharma Education Bachelors Degree Skills Python Machine Learning SQL Projects Recommendation System",unknown
+"PROJECT REQUIREMENTS Document Processing Platform Milestones Backend Development Frontend Integration Testing Deployment Team Members Engineering Team",unknown

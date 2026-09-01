@@ -1,0 +1,31 @@
+text,label
+"1NVO1CE No: INV-78O2 Dt: 10-8-26 B1ll To: ABC Pvt Ltd Sub-t0tal: Rs 4250 GST: 765 T0TAL PAYBLE: Rs 5015",invoice
+"Inv #: 2026/091 Cust: Sunrise Enterprises Qty 4 Rate 1250 Amt 5000 Tax 900 Net Amt 5900",invoice
+"Bill To ABC Technologies Vendor XYZ Services Date 14/08/26 Amount Due 8450 Payment terms 15 days",invoice
+"TAX INVOICE Supplier: Metro Systems Buyer: Kiran Stores HSN 8471 Taxable 12000 CGST 1080 SGST 1080 Grand Total 14160",invoice
+"Invoice Dt 22-08-26 Client ABC Media Design work 3 units @ 2000 Total payable Rs 7080 GST included",invoice
+"Inv no missing Vendor: Digital Hub Customer: Rohan Total 4500 Due date 30 Aug Payment pending",invoice
+"Bill No 9812 Seller ABC Buyer DEF Product laptop Qty 2 Rate 55000 Total 129800",invoice
+"Commercial bill Customer details GSTIN 27XXXXX Amount before tax 8000 tax 1440 amount payable 9440",invoice
+"Service bill Dt 01/09/26 Client: Nova Pvt Ltd Consulting charges 7500 Tax 1350 Balance due 8850",invoice
+"INV-00921 ABC Traders payment terms net 30 taxable value 3400 GST 612 total 4012",invoice
+"THANK U 4 SHOPPING ABC MART Dt 12/08/26 Milk 60 Bread 45 Total 105 Paid UPI",receipt
+"Txn ID 78O21 Store: Fresh Point Items 3 Amount paid Rs 480 Cash Change 20",receipt
+"Purchase Dt 18-08-26 Coffee 120 Sandwich 180 Total 300 card payment thank you",receipt
+"RECE1PT Merchant XYZ Qty 2 Price 450 Total 900 Paid by UPI",receipt
+"Store purchase customer Rahul Items Rice Oil Sugar Total 840 Amount received 1000 Change 160",receipt
+"Payment recvd Rs 2500 Txn 88291 Date 20/08/26 UPI Merchant ABC",receipt
+"Thank you for shopping Item: Headphones Qty1 Amt1499 Card paid",receipt
+"POS Dt 25/8 Store Cafe Corner Coffee 120 Snacks 80 Total 200 cash",receipt
+"Purchase transaction 99172 Amount 670 Paid card Date 28 Aug Store XYZ",receipt
+"Paid Rs 1250 Thank you visit again Items 4 Store ABC transaction reference 7821",receipt
+"ACCOUNT STATEMENT Customer ABC Opening balance 12000 Credit 4500 Debit 2000 Closing balance 14500",unknown
+"PAYMENT STATUS: COMPLETED Amount Rs 4500 Transaction reference TXN8821 Account ending 9214",unknown
+"Employee record Name Rahul Department Finance Joining date 12/06/26 Salary 45000 Attendance 24 days",unknown
+"Project document Customer billing workflow Vendor onboarding Tax calculation Payment automation Requirements",unknown
+"Student record Name Priya Semester IV Subjects DBMS AI ML Grades A B+ A",unknown
+"Meeting notes Payment discussion Vendor onboarding Customer feedback Total project budget Action items",unknown
+"Bank transaction Amount 8500 Date 14/08/26 UPI reference 77291 Account statement",unknown
+"JOB APPLICATION Customer service experience Python SQL education projects salary expectation",unknown
+"Product specification Model X200 Price information technical dimensions warranty requirements",unknown
+"Hotel booking Guest Rahul Check in 14 Aug Check out 17 Aug Room 204 Payment received confirmation number",unknown

@@ -1,31 +1,151 @@
 text,label
-"Bill To customer Date subtotal tax total amount due invoice number",invoice
-"Vendor bill payment terms subtotal GST total amount payable",invoice
-"Customer name billing address tax total balance due",invoice
-"Invoice date seller buyer quantity rate amount subtotal",invoice
-"Bill number customer details GST amount payable total",invoice
-"Seller buyer billing address item quantity rate subtotal tax total",invoice
-"Amount payable billing date customer details tax subtotal",invoice
-"Purchase order billing details quantity unit price tax total amount due",invoice
-"Business customer bill date items subtotal tax payment terms",invoice
-"Customer billing information product quantity price total payable",invoice
-"Items purchased quantity price total paid by UPI",receipt
-"Store purchase date items amount paid cash",receipt
-"Thank you for your purchase total paid by card",receipt
-"Product quantity price total payment received",receipt
-"Shopping receipt items purchased subtotal total",receipt
-"Purchase date store items quantity amount payment method",receipt
-"Cash payment received products purchased total amount",receipt
-"Customer purchase transaction items total paid",receipt
-"Store bill items purchased tax total paid",receipt
-"Payment received purchase items amount change returned",receipt
-"Student education skills experience projects",unknown
-"Employee name department joining date salary",unknown
-"Account balance transaction history account number",unknown
-"Job application education experience skills",unknown
-"Meeting agenda attendees action items",unknown
-"Project requirements milestones team members",unknown
-"University course subjects semester grades",unknown
-"Company employee attendance department details",unknown
-"Software project architecture modules requirements",unknown
-"Customer feedback product comments suggestions",unknown
+Bill To customer Date subtotal tax total amount due invoice number,invoice
+Vendor bill payment terms subtotal GST total amount payable,invoice
+Customer name billing address tax total balance due,invoice
+Invoice date seller buyer quantity rate amount subtotal,invoice
+Bill number customer details GST amount payable total,invoice
+Seller buyer billing address item quantity rate subtotal tax total,invoice
+Amount payable billing date customer details tax subtotal,invoice
+Purchase order billing details quantity unit price tax total amount due,invoice
+Business customer bill date items subtotal tax payment terms,invoice
+Customer billing information product quantity price total payable,invoice
+Items purchased quantity price total paid by UPI,receipt
+Store purchase date items amount paid cash,receipt
+Thank you for your purchase total paid by card,receipt
+Product quantity price total payment received,receipt
+Shopping receipt items purchased subtotal total,receipt
+Purchase date store items quantity amount payment method,receipt
+Cash payment received products purchased total amount,receipt
+Customer purchase transaction items total paid,receipt
+Store bill items purchased tax total paid,receipt
+Payment received purchase items amount change returned,receipt
+Student education skills experience projects,unknown
+Employee name department joining date salary,unknown
+Account balance transaction history account number,unknown
+Job application education experience skills,unknown
+Meeting agenda attendees action items,unknown
+Project requirements milestones team members,unknown
+University course subjects semester grades,unknown
+Company employee attendance department details,unknown
+Software project architecture modules requirements,unknown
+Customer feedback product comments suggestions,unknown
+Invoice number 1 customer name billing address subtotal tax total amount due,invoice
+Tax invoice vendor details buyer details GST amount payment terms total payable 2,invoice
+Commercial invoice seller buyer quantity rate amount subtotal tax grand total 3,invoice
+Service invoice customer vendor service description amount tax payment due date 4,invoice
+Invoice date billing address shipping address subtotal discount tax total 5,invoice
+GST invoice supplier customer GSTIN taxable amount CGST SGST total payable 6,invoice
+Invoice number seller information buyer information item quantity price total 7,invoice
+Bill to customer vendor payment due subtotal tax balance payable 8,invoice
+Sales invoice product quantity unit price discount subtotal tax total 9,invoice
+Invoice receipt number vendor customer transaction amount payment due 10,invoice
+Invoice number 11 customer name billing address subtotal tax total amount due,invoice
+Tax invoice vendor details buyer details GST amount payment terms total payable 12,invoice
+Commercial invoice seller buyer quantity rate amount subtotal tax grand total 13,invoice
+Service invoice customer vendor service description amount tax payment due date 14,invoice
+Invoice date billing address shipping address subtotal discount tax total 15,invoice
+GST invoice supplier customer GSTIN taxable amount CGST SGST total payable 16,invoice
+Invoice number seller information buyer information item quantity price total 17,invoice
+Bill to customer vendor payment due subtotal tax balance payable 18,invoice
+Sales invoice product quantity unit price discount subtotal tax total 19,invoice
+Invoice receipt number vendor customer transaction amount payment due 20,invoice
+Invoice number 21 customer name billing address subtotal tax total amount due,invoice
+Tax invoice vendor details buyer details GST amount payment terms total payable 22,invoice
+Commercial invoice seller buyer quantity rate amount subtotal tax grand total 23,invoice
+Service invoice customer vendor service description amount tax payment due date 24,invoice
+Invoice date billing address shipping address subtotal discount tax total 25,invoice
+GST invoice supplier customer GSTIN taxable amount CGST SGST total payable 26,invoice
+Invoice number seller information buyer information item quantity price total 27,invoice
+Bill to customer vendor payment due subtotal tax balance payable 28,invoice
+Sales invoice product quantity unit price discount subtotal tax total 29,invoice
+Invoice receipt number vendor customer transaction amount payment due 30,invoice
+Invoice number 31 customer name billing address subtotal tax total amount due,invoice
+Tax invoice vendor details buyer details GST amount payment terms total payable 32,invoice
+Commercial invoice seller buyer quantity rate amount subtotal tax grand total 33,invoice
+Service invoice customer vendor service description amount tax payment due date 34,invoice
+Invoice date billing address shipping address subtotal discount tax total 35,invoice
+GST invoice supplier customer GSTIN taxable amount CGST SGST total payable 36,invoice
+Invoice number seller information buyer information item quantity price total 37,invoice
+Bill to customer vendor payment due subtotal tax balance payable 38,invoice
+Sales invoice product quantity unit price discount subtotal tax total 39,invoice
+Invoice receipt number vendor customer transaction amount payment due 40,invoice
+Receipt transaction number store purchase date items amount paid cash 1,receipt
+Retail receipt product quantity price subtotal discount total paid 2,receipt
+Payment receipt payment received customer amount date transaction number 3,receipt
+Purchase receipt store items purchased quantity amount paid card 4,receipt
+Cash receipt customer payment received amount change transaction 5,receipt
+Card payment receipt merchant purchase date total amount card payment 6,receipt
+Shopping receipt items purchased subtotal tax total payment received 7,receipt
+Receipt thank you for your purchase items quantity price amount paid 8,receipt
+Point of sale receipt product price discount total payment method 9,receipt
+Purchase transaction receipt store date items total paid change 10,receipt
+Receipt transaction number store purchase date items amount paid cash 11,receipt
+Retail receipt product quantity price subtotal discount total paid 12,receipt
+Payment receipt payment received customer amount date transaction number 13,receipt
+Purchase receipt store items purchased quantity amount paid card 14,receipt
+Cash receipt customer payment received amount change transaction 15,receipt
+Card payment receipt merchant purchase date total amount card payment 16,receipt
+Shopping receipt items purchased subtotal tax total payment received 17,receipt
+Receipt thank you for your purchase items quantity price amount paid 18,receipt
+Point of sale receipt product price discount total payment method 19,receipt
+Purchase transaction receipt store date items total paid change 20,receipt
+Receipt transaction number store purchase date items amount paid cash 21,receipt
+Retail receipt product quantity price subtotal discount total paid 22,receipt
+Payment receipt payment received customer amount date transaction number 23,receipt
+Purchase receipt store items purchased quantity amount paid card 24,receipt
+Cash receipt customer payment received amount change transaction 25,receipt
+Card payment receipt merchant purchase date total amount card payment 26,receipt
+Shopping receipt items purchased subtotal tax total payment received 27,receipt
+Receipt thank you for your purchase items quantity price amount paid 28,receipt
+Point of sale receipt product price discount total payment method 29,receipt
+Purchase transaction receipt store date items total paid change 30,receipt
+Receipt transaction number store purchase date items amount paid cash 31,receipt
+Retail receipt product quantity price subtotal discount total paid 32,receipt
+Payment receipt payment received customer amount date transaction number 33,receipt
+Purchase receipt store items purchased quantity amount paid card 34,receipt
+Cash receipt customer payment received amount change transaction 35,receipt
+Card payment receipt merchant purchase date total amount card payment 36,receipt
+Shopping receipt items purchased subtotal tax total payment received 37,receipt
+Receipt thank you for your purchase items quantity price amount paid 38,receipt
+Point of sale receipt product price discount total payment method 39,receipt
+Purchase transaction receipt store date items total paid change 40,receipt
+Student education course subjects semester grades academic information 1,unknown
+Employee name department joining date salary attendance details 2,unknown
+Bank account balance transaction history account number statement 3,unknown
+Job application education experience skills projects qualifications 4,unknown
+Meeting agenda attendees discussion topics action items schedule 5,unknown
+Project requirements milestones team members deadlines deliverables 6,unknown
+University admission application student course department documents 7,unknown
+Hotel reservation guest name check in check out room booking 8,unknown
+Product specification technical details features dimensions requirements 9,unknown
+Customer feedback product comments suggestions experience rating 10,unknown
+Student education course subjects semester grades academic information 11,unknown
+Employee name department joining date salary attendance details 12,unknown
+Bank account balance transaction history account number statement 13,unknown
+Job application education experience skills projects qualifications 14,unknown
+Meeting agenda attendees discussion topics action items schedule 15,unknown
+Project requirements milestones team members deadlines deliverables 16,unknown
+University admission application student course department documents 17,unknown
+Hotel reservation guest name check in check out room booking 18,unknown
+Product specification technical details features dimensions requirements 19,unknown
+Customer feedback product comments suggestions experience rating 20,unknown
+Student education course subjects semester grades academic information 21,unknown
+Employee name department joining date salary attendance details 22,unknown
+Bank account balance transaction history account number statement 23,unknown
+Job application education experience skills projects qualifications 24,unknown
+Meeting agenda attendees discussion topics action items schedule 25,unknown
+Project requirements milestones team members deadlines deliverables 26,unknown
+University admission application student course department documents 27,unknown
+Hotel reservation guest name check in check out room booking 28,unknown
+Product specification technical details features dimensions requirements 29,unknown
+Customer feedback product comments suggestions experience rating 30,unknown
+Student education course subjects semester grades academic information 31,unknown
+Employee name department joining date salary attendance details 32,unknown
+Bank account balance transaction history account number statement 33,unknown
+Job application education experience skills projects qualifications 34,unknown
+Meeting agenda attendees discussion topics action items schedule 35,unknown
+Project requirements milestones team members deadlines deliverables 36,unknown
+University admission application student course department documents 37,unknown
+Hotel reservation guest name check in check out room booking 38,unknown
+Product specification technical details features dimensions requirements 39,unknown
+Customer feedback product comments suggestions experience rating 40,unknown
