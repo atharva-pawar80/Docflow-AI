@@ -1,5 +1,5 @@
 import pandas as pd
-
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -12,7 +12,7 @@ from sklearn.metrics import (
 )
 
 DATA_PATH = "data/classification/documents.csv"
-
+MODEL_PATH = "backend/app/models/document_classifier.joblib"
 
 # 1. Load dataset
 df = pd.read_csv(DATA_PATH)
@@ -72,15 +72,36 @@ accuracy = accuracy_score(y_test, y_pred)
 print("\nAccuracy:", accuracy)
 
 print("\nClassification Report:")
-print(classification_report(y_test, y_pred))
+print(
+    classification_report(
+        y_test,
+        y_pred
+    )
+)
 
 print("\nConfusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
+print(
+    confusion_matrix(
+        y_test,
+        y_pred
+    )
+)
 
 
 
 train_pred = classifier.predict(X_train)
-train_accuracy = accuracy_score(y_train, train_pred)
+
+train_accuracy = accuracy_score(
+    y_train,
+    train_pred
+)
 
 print("\nTraining Accuracy:", train_accuracy)
 print("Testing Accuracy:", accuracy)
+
+joblib.dump(
+    classifier,
+    MODEL_PATH
+)
+
+print(f"\nModel saved to: {MODEL_PATH}")
