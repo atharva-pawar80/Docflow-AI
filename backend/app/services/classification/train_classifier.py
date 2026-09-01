@@ -2,6 +2,7 @@ import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import cross_val_score ,StratifiedKFold
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, accuracy_score
@@ -38,6 +39,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 print("\nTraining samples:", len(X_train))
 print("Testing samples:", len(X_test))
+
 
 
 # 4. Create ML pipeline
@@ -99,9 +101,44 @@ train_accuracy = accuracy_score(
 print("\nTraining Accuracy:", train_accuracy)
 print("Testing Accuracy:", accuracy)
 
+
+# ============================================================
+# 10. 5-FOLD CROSS-VALIDATION
+# ============================================================
+
+print("\n========== 5-FOLD CROSS-VALIDATION ==========\n")
+
+cv = StratifiedKFold(
+    n_splits=5,
+    shuffle=True,
+    random_state=42
+)
+
+cv_scores = cross_val_score(
+    classifier,
+    X,
+    y,
+    cv=cv,
+    scoring="accuracy"
+)
+
+print("Fold accuracies:")
+
+for i, score in enumerate(cv_scores, start=1):
+    print(f"Fold {i}: {score:.4f}")
+
+
+print("\nMean CV Accuracy:", cv_scores.mean())
+print("Standard Deviation:", cv_scores.std())
+
+# ============================================================
+# 11. SAVE TRAINED MODEL
+# ============================================================
+
 joblib.dump(
     classifier,
     MODEL_PATH
 )
 
 print(f"\nModel saved to: {MODEL_PATH}")
+
