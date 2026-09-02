@@ -1,0 +1,301 @@
+text,label
+Subscription Invoice | Provider: Bright Systems | Subscriber: CloudWorks | Plan: Consulting | Billing Period: 21-02-2026 | Base Charge: Rs 34269 | GST: Rs 4112 | Amount Due: Rs 38381,invoice
+Utility Invoice | Service Provider: Metro Services | Account Holder: CloudWorks | Bill Date: 05-02-2025 | Usage Charges: Rs 13249 | Taxes: Rs 2384 | Total Payable: Rs 15633,invoice
+Quotation | Vendor: CloudWorks | Customer: Bright Systems | Product: Monitor | Quantity: 4 | Estimated Price: Rs 33381 | Valid Until: 02-05-2025,unknown
+Business Contract | Company A: ABC Solutions | Company B: TechNova Pvt Ltd | Contract Reference: 9446 | Service: Digital Marketing | Agreement Status: Pending,unknown
+Subscription Invoice | Provider: ABC Solutions | Subscriber: Global Traders | Plan: Digital Marketing | Billing Period: 20-07-2024 | Base Charge: Rs 28014 | GST: Rs 3361 | Amount Due: Rs 31375,invoice
+Fuel Receipt | Station: Metro Mart | Date: 17-01-2026 | Fuel Quantity: 5 | Rate: Rs 1917 | Total Paid: Rs 54919 | Payment: Cash,receipt
+Cash Receipt | Merchant: Metro Mart | Customer Payment Received | Product: Mobile Phone | Amount: Rs 22137 | Change Returned: Rs 119,receipt
+Purchase Order | Buyer: CloudWorks | Supplier: Metro Services | Order Number: 4075 | Product: Stationery | Quantity: 10 | Delivery Date: 08-01-2026,unknown
+Receipt | Store: Local Pharmacy | Purchase Date: 27-02-2026 | Items: Laptop | Quantity: 10 | Total Paid: Rs 3278 | Payment Method: Cash,receipt
+Purchase Invoice | Supplier: TechNova Pvt Ltd | Buyer: Global Traders | Order Ref: 6438 | Items: Software License | Units: 7 | Unit Cost: Rs 2877 | Tax: Rs 5841 | Total Payable: Rs 54522,invoice
+Cash Receipt | Merchant: Reliance Digital | Customer Payment Received | Product: Keyboard | Amount: Rs 42656 | Change Returned: Rs 314,receipt
+Sales Invoice | Seller: Metro Services | Bill To: Bright Systems | Product: Printer | Quantity: 3 | Rate: Rs 4595 | Discount: Rs 962 | Tax: Rs 5390 | Net Amount: Rs 35336,invoice
+Card Payment Receipt | Merchant: Fresh Store | Purchase Date: 23-10-2024 | Transaction ID: 9202 | Amount Paid: Rs 31070 | Payment: Credit Card,receipt
+Subscription Invoice | Provider: Metro Services | Subscriber: Bright Systems | Plan: Digital Marketing | Billing Period: 27-03-2026 | Base Charge: Rs 39148 | GST: Rs 1957 | Amount Due: Rs 41105,invoice
+Tax Invoice | Seller: CloudWorks | Buyer: ABC Solutions | Invoice No: 9802 | Date: 24-03-2026 | Subtotal: Rs 26448 | GST: Rs 3173 | Total: Rs 29621,invoice
+University Admission | Student: Priya Patil | Program: Information Technology | Department: HR | Admission Status: Completed,unknown
+Product Specification | Product: Keyboard | Features: Cloud synchronization and security | Dimensions: 15 x 15 x 4 cm | Technical Requirements: Secure authentication and reporting,unknown
+Commercial Invoice | Supplier: Metro Services | Customer: CloudWorks | Invoice ID: 1100 | Quantity: 1 | Unit Price: Rs 851 | Tax: Rs 3290 | Amount Payable: Rs 30712,invoice
+Invoice | Vendor: Metro Services | Customer: CloudWorks | Invoice Number: 3733 | Payment Terms: Net 30 | Subtotal: Rs 30506 | Tax: Rs 5491 | Balance Due: Rs 35997,invoice
+Meeting Notes | Meeting Date: 28-07-2024 | Attendees: Anjali More | Topics Discussed: Marketing strategy | Action Items: Prepare project report,unknown
+Purchase Receipt | Seller: Reliance Digital | Receipt No: 8951 | Date: 18-05-2026 | Items: Printer | Total Amount Paid: Rs 51261,receipt
+Cash Receipt | Merchant: Local Pharmacy | Customer Payment Received | Product: Office Chair | Amount: Rs 50720 | Change Returned: Rs 308,receipt
+POS Receipt | Store: Reliance Digital | Transaction: 8144 | Items Purchased: Stationery | Subtotal: Rs 35930 | Tax: Rs 4311 | Total: Rs 40241 | Paid by Card,receipt
+Shipping Document | Sender: TechNova Pvt Ltd | Receiver: Bright Systems | Tracking Number: 1425 | Package: Keyboard | Quantity: 1 | Delivery Status: Completed,unknown
+Shipping Document | Sender: Global Traders | Receiver: Bright Systems | Tracking Number: 9308 | Package: Stationery | Quantity: 2 | Delivery Status: Approved,unknown
+Payment Confirmation | Status: Completed | Amount: Rs 26623 | Transaction Reference: 6588 | Account Ending: 3895,unknown
+Sales Invoice | Seller: CloudWorks | Bill To: ABC Solutions | Product: Stationery | Quantity: 9 | Rate: Rs 3216 | Discount: Rs 461 | Tax: Rs 174 | Net Amount: Rs 3656,invoice
+Service Invoice | Vendor: CloudWorks | Client: Nova Retail | Service: Cloud Hosting | Billing Date: 27-01-2026 | Service Charge: Rs 17832 | GST: Rs 891 | Total Due: Rs 18723,invoice
+Job Application | Applicant: Anjali More | Education: B.Sc Computer Science | Experience: 1 year data analysis | Skills: Python SQL Machine Learning,unknown
+Bank Account Statement | Account Holder: Neha Kulkarni | Account Number: 3252262370 | Opening Balance: Rs 35528 | Closing Balance: Rs 39791,unknown
+Shopping Receipt | Shop: Metro Mart | Purchase Date: 14-03-2026 | Quantity: 2 | Product: Monitor | Amount: Rs 22152 | Payment: UPI,receipt
+Sales Invoice | Seller: ABC Solutions | Bill To: Bright Systems | Product: Printer | Quantity: 6 | Rate: Rs 595 | Discount: Rs 632 | Tax: Rs 524 | Net Amount: Rs 11012,invoice
+Receipt | Store: Fresh Store | Purchase Date: 24-11-2026 | Items: Headphones | Quantity: 5 | Total Paid: Rs 14431 | Payment Method: Cash,receipt
+Customer Feedback | Customer: Aditya Shah | Product: Printer | Experience: 2 years software development | Comments: Product quality was satisfactory | Rating: 4/5,unknown
+Student Academic Record | Student: Amit Joshi | Course: Information Technology | Semester: 8 | Grades: B+,unknown
+Tax Invoice | Seller: Metro Services | Buyer: CloudWorks | Invoice No: 5264 | Date: 10-10-2024 | Subtotal: Rs 8772 | GST: Rs 438 | Total: Rs 9210,invoice
+Purchase Receipt | Seller: Reliance Digital | Receipt No: 8300 | Date: 15-12-2024 | Items: Headphones | Total Amount Paid: Rs 36750,receipt
+University Admission | Student: Neha Kulkarni | Program: Information Technology | Department: Engineering | Admission Status: Completed,unknown
+Sales Invoice | Seller: Bright Systems | Bill To: Bright Systems | Product: Monitor | Quantity: 10 | Rate: Rs 992 | Discount: Rs 159 | Tax: Rs 365 | Net Amount: Rs 7677,invoice
+Restaurant Receipt | Restaurant: Fresh Store | Date: 08-08-2025 | Items: Stationery | Subtotal: Rs 27742 | Tax: Rs 3329 | Total Bill: Rs 31071,receipt
+Restaurant Receipt | Restaurant: Metro Mart | Date: 04-07-2025 | Items: Printer | Subtotal: Rs 27819 | Tax: Rs 5007 | Total Bill: Rs 32826,receipt
+Delivery Note | Supplier: Global Traders | Customer: Bright Systems | Delivery Reference: 1404 | Items: Monitor | Quantity: 2 | Delivery Status: Completed,unknown
+Utility Invoice | Service Provider: Metro Services | Account Holder: Bright Systems | Bill Date: 20-04-2025 | Usage Charges: Rs 17233 | Taxes: Rs 3101 | Total Payable: Rs 20334,invoice
+Purchase Invoice | Supplier: Global Traders | Buyer: CloudWorks | Order Ref: 9078 | Items: Printer | Units: 10 | Unit Cost: Rs 1947 | Tax: Rs 878 | Total Payable: Rs 8200,invoice
+Job Application | Applicant: Amit Joshi | Education: B.Tech Information Technology | Experience: 6 months internship | Skills: Python SQL Machine Learning,unknown
+Restaurant Receipt | Restaurant: Metro Mart | Date: 19-12-2026 | Items: Monitor | Subtotal: Rs 6591 | Tax: Rs 329 | Total Bill: Rs 6920,receipt
+Utility Invoice | Service Provider: Global Traders | Account Holder: CloudWorks | Bill Date: 24-03-2026 | Usage Charges: Rs 17014 | Taxes: Rs 850 | Total Payable: Rs 17864,invoice
+Project Requirements | Project: Customer Portal | Objective: Secure authentication and reporting | Milestones: Planning and Development | Team: Rahul Sharma,unknown
+Tax Invoice | Seller: Bright Systems | Buyer: Bright Systems | Invoice No: 4394 | Date: 25-06-2024 | Subtotal: Rs 45738 | GST: Rs 5488 | Total: Rs 51226,invoice
+Restaurant Receipt | Restaurant: Local Pharmacy | Date: 12-07-2024 | Items: Headphones | Subtotal: Rs 32445 | Tax: Rs 1622 | Total Bill: Rs 34067,receipt
+Fuel Receipt | Station: City Supermarket | Date: 10-05-2025 | Fuel Quantity: 3 | Rate: Rs 1063 | Total Paid: Rs 46239 | Payment: Cash,receipt
+Restaurant Receipt | Restaurant: Metro Mart | Date: 25-01-2024 | Items: Printer | Subtotal: Rs 20972 | Tax: Rs 3774 | Total Bill: Rs 24746,receipt
+Commercial Invoice | Supplier: CloudWorks | Customer: Bright Systems | Invoice ID: 1828 | Quantity: 7 | Unit Price: Rs 1114 | Tax: Rs 771 | Amount Payable: Rs 16210,invoice
+Purchase Receipt | Seller: Reliance Digital | Receipt No: 8524 | Date: 25-08-2025 | Items: Stationery | Total Amount Paid: Rs 12109,receipt
+Invoice | Vendor: CloudWorks | Customer: Metro Services | Invoice Number: 2146 | Payment Terms: Net 30 | Subtotal: Rs 42540 | Tax: Rs 7657 | Balance Due: Rs 50197,invoice
+Retail Receipt | Merchant: Tech Shop | Date: 02-02-2024 | Product: Software License | Price: Rs 3754 | Tax: Rs 2423 | Amount Paid: Rs 50894,receipt
+University Admission | Student: Neha Kulkarni | Program: Computer Engineering | Department: Finance | Admission Status: Active,unknown
+Cash Receipt | Merchant: Tech Shop | Customer Payment Received | Product: Office Chair | Amount: Rs 12050 | Change Returned: Rs 16,receipt
+Hotel Reservation | Guest: Priya Patil | Check In: 06-07-2025 | Check Out: 28-05-2026 | Room: 412 | Booking Status: Confirmed,unknown
+Project Report | Project: Inventory System | Budget: Rs 14545 | Billing Workflow: Secure authentication and reporting | Payment Process: Update documentation | Status: Pending,unknown
+Shopping Receipt | Shop: City Supermarket | Purchase Date: 08-01-2026 | Quantity: 5 | Product: Keyboard | Amount: Rs 17199 | Payment: UPI,receipt
+Tax Notice | Tax Authority: Nova Retail | Taxpayer: CloudWorks | Notice Reference: 5019 | Tax Period: 12-11-2024 | Amount Mentioned: Rs 32375,unknown
+Fuel Receipt | Station: Fresh Store | Date: 13-11-2025 | Fuel Quantity: 2 | Rate: Rs 4332 | Total Paid: Rs 11480 | Payment: Cash,receipt
+Invoice | Vendor: TechNova Pvt Ltd | Customer: Nova Retail | Invoice Number: 7718 | Payment Terms: Net 30 | Subtotal: Rs 18277 | Tax: Rs 913 | Balance Due: Rs 19190,invoice
+Service Invoice | Vendor: Bright Systems | Client: CloudWorks | Service: Digital Marketing | Billing Date: 17-03-2025 | Service Charge: Rs 30317 | GST: Rs 5457 | Total Due: Rs 35774,invoice
+Restaurant Receipt | Restaurant: Fresh Store | Date: 13-08-2026 | Items: Monitor | Subtotal: Rs 29020 | Tax: Rs 5223 | Total Bill: Rs 34243,receipt
+Freelance Invoice | Consultant: Nova Retail | Client: Global Traders | Work: Digital Marketing | Invoice Ref: 8573 | Professional Fee: Rs 8680 | Tax: Rs 1041 | Total: Rs 9721,invoice
+Payment Confirmation | Status: Completed | Amount: Rs 31317 | Transaction Reference: 6952 | Account Ending: 3780,unknown
+Job Application | Applicant: Anjali More | Education: B.Sc Computer Science | Experience: 2 years software development | Skills: Java Communication Leadership,unknown
+Fuel Receipt | Station: City Supermarket | Date: 20-10-2026 | Fuel Quantity: 10 | Rate: Rs 4166 | Total Paid: Rs 58537 | Payment: Cash,receipt
+Fuel Receipt | Station: Tech Shop | Date: 01-04-2025 | Fuel Quantity: 1 | Rate: Rs 4834 | Total Paid: Rs 48129 | Payment: Cash,receipt
+Cash Receipt | Merchant: Local Pharmacy | Customer Payment Received | Product: Headphones | Amount: Rs 33594 | Change Returned: Rs 363,receipt
+Restaurant Receipt | Restaurant: Fresh Store | Date: 03-10-2025 | Items: Stationery | Subtotal: Rs 2720 | Tax: Rs 326 | Total Bill: Rs 3046,receipt
+Utility Invoice | Service Provider: Metro Services | Account Holder: TechNova Pvt Ltd | Bill Date: 13-11-2026 | Usage Charges: Rs 24574 | Taxes: Rs 4423 | Total Payable: Rs 28997,invoice
+Subscription Invoice | Provider: Metro Services | Subscriber: Metro Services | Plan: Consulting | Billing Period: 19-07-2024 | Base Charge: Rs 48900 | GST: Rs 2445 | Amount Due: Rs 51345,invoice
+Delivery Note | Supplier: TechNova Pvt Ltd | Customer: Nova Retail | Delivery Reference: 2683 | Items: Laptop | Quantity: 6 | Delivery Status: Completed,unknown
+Tax Invoice | Seller: TechNova Pvt Ltd | Buyer: Bright Systems | Invoice No: 9856 | Date: 05-12-2025 | Subtotal: Rs 42229 | GST: Rs 2111 | Total: Rs 44340,invoice
+University Admission | Student: Amit Joshi | Program: Business Administration | Department: HR | Admission Status: Pending,unknown
+Retail Receipt | Merchant: Fresh Store | Date: 25-08-2026 | Product: Printer | Price: Rs 3874 | Tax: Rs 2229 | Amount Paid: Rs 20812,receipt
+Product Specification | Product: Laptop | Features: Wireless connectivity and rechargeable battery | Dimensions: 30 x 20 x 8 cm | Technical Requirements: Secure authentication and reporting,unknown
+Transaction Notification | Transaction Status: Successful | Amount: Rs 11447 | Reference Number: 9630 | Account: 5018,unknown
+Tax Invoice | Seller: Global Traders | Buyer: TechNova Pvt Ltd | Invoice No: 4891 | Date: 19-07-2024 | Subtotal: Rs 19827 | GST: Rs 991 | Total: Rs 20818,invoice
+Utility Invoice | Service Provider: TechNova Pvt Ltd | Account Holder: TechNova Pvt Ltd | Bill Date: 21-02-2026 | Usage Charges: Rs 1530 | Taxes: Rs 76 | Total Payable: Rs 1606,invoice
+Purchase Invoice | Supplier: TechNova Pvt Ltd | Buyer: CloudWorks | Order Ref: 9850 | Items: Stationery | Units: 2 | Unit Cost: Rs 4108 | Tax: Rs 4584 | Total Payable: Rs 30054,invoice
+Restaurant Receipt | Restaurant: Fresh Store | Date: 26-03-2024 | Items: Printer | Subtotal: Rs 1326 | Tax: Rs 66 | Total Bill: Rs 1392,receipt
+Card Payment Receipt | Merchant: Tech Shop | Purchase Date: 08-04-2024 | Transaction ID: 7152 | Amount Paid: Rs 28599 | Payment: Credit Card,receipt
+Utility Invoice | Service Provider: Metro Services | Account Holder: CloudWorks | Bill Date: 04-12-2024 | Usage Charges: Rs 25018 | Taxes: Rs 3002 | Total Payable: Rs 28020,invoice
+Cash Receipt | Merchant: Reliance Digital | Customer Payment Received | Product: Monitor | Amount: Rs 54759 | Change Returned: Rs 98,receipt
+Invoice | Vendor: TechNova Pvt Ltd | Customer: Nova Retail | Invoice Number: 8205 | Payment Terms: Net 30 | Subtotal: Rs 15020 | Tax: Rs 1802 | Balance Due: Rs 16822,invoice
+Hotel Reservation | Guest: Anjali More | Check In: 05-11-2024 | Check Out: 09-03-2025 | Room: 101 | Booking Status: Confirmed,unknown
+Subscription Invoice | Provider: CloudWorks | Subscriber: Global Traders | Plan: IT Services | Billing Period: 09-02-2024 | Base Charge: Rs 44604 | GST: Rs 5352 | Amount Due: Rs 49956,invoice
+Payment Confirmation | Status: Completed | Amount: Rs 4712 | Transaction Reference: 1403 | Account Ending: 2983,unknown
+Card Payment Receipt | Merchant: Local Pharmacy | Purchase Date: 08-10-2026 | Transaction ID: 4163 | Amount Paid: Rs 50606 | Payment: Credit Card,receipt
+Product Specification | Product: Printer | Features: Wireless connectivity and rechargeable battery | Dimensions: 30 x 20 x 8 cm | Technical Requirements: Automated workflow and user management,unknown
+Sales Invoice | Seller: Global Traders | Bill To: TechNova Pvt Ltd | Product: Monitor | Quantity: 9 | Rate: Rs 4413 | Discount: Rs 38 | Tax: Rs 3062 | Net Amount: Rs 20076,invoice
+Purchase Receipt | Seller: Tech Shop | Receipt No: 7315 | Date: 07-01-2024 | Items: Mobile Phone | Total Amount Paid: Rs 10630,receipt
+Fuel Receipt | Station: Metro Mart | Date: 28-04-2026 | Fuel Quantity: 4 | Rate: Rs 2145 | Total Paid: Rs 9093 | Payment: Cash,receipt
+Pharmacy Receipt | Pharmacy: Tech Shop | Purchase Date: 16-09-2025 | Medicine: Stationery | Amount: Rs 20322 | Payment Received,receipt
+Retail Receipt | Merchant: Fresh Store | Date: 10-01-2025 | Product: Mobile Phone | Price: Rs 4443 | Tax: Rs 1801 | Amount Paid: Rs 11808,receipt
+Transaction Notification | Transaction Status: Successful | Amount: Rs 721 | Reference Number: 2736 | Account: 7184,unknown
+Tax Notice | Tax Authority: ABC Solutions | Taxpayer: CloudWorks | Notice Reference: 8763 | Tax Period: 06-07-2025 | Amount Mentioned: Rs 13791,unknown
+Commercial Invoice | Supplier: ABC Solutions | Customer: Bright Systems | Invoice ID: 6152 | Quantity: 10 | Unit Price: Rs 2434 | Tax: Rs 2524 | Amount Payable: Rs 23559,invoice
+Retail Receipt | Merchant: City Supermarket | Date: 20-10-2025 | Product: Monitor | Price: Rs 3116 | Tax: Rs 6544 | Amount Paid: Rs 42902,receipt
+Sales Invoice | Seller: Nova Retail | Bill To: Nova Retail | Product: Keyboard | Quantity: 9 | Rate: Rs 1941 | Discount: Rs 663 | Tax: Rs 4688 | Net Amount: Rs 43757,invoice
+Employee Record | Employee: Neha Kulkarni | Department: HR | Joining Date: 05-03-2024 | Attendance: 88%,unknown
+Job Application | Applicant: Sneha Pawar | Education: B.Tech Information Technology | Experience: 6 months internship | Skills: Data Analysis Project Management,unknown
+Customer Feedback | Customer: Anjali More | Product: Laptop | Experience: 3 years project management | Comments: Excellent service | Rating: 4/5,unknown
+University Admission | Student: Sneha Pawar | Program: Computer Engineering | Department: Finance | Admission Status: Approved,unknown
+Retail Receipt | Merchant: Fresh Store | Date: 27-01-2024 | Product: Keyboard | Price: Rs 104 | Tax: Rs 907 | Amount Paid: Rs 19055,receipt
+Receipt | Store: City Supermarket | Purchase Date: 06-12-2025 | Items: Mobile Phone | Quantity: 7 | Total Paid: Rs 29590 | Payment Method: Cash,receipt
+Restaurant Receipt | Restaurant: City Supermarket | Date: 21-07-2025 | Items: Stationery | Subtotal: Rs 12255 | Tax: Rs 1470 | Total Bill: Rs 13725,receipt
+Shopping Receipt | Shop: Fresh Store | Purchase Date: 23-08-2026 | Quantity: 7 | Product: Monitor | Amount: Rs 47824 | Payment: UPI,receipt
+Cash Receipt | Merchant: City Supermarket | Customer Payment Received | Product: Software License | Amount: Rs 31336 | Change Returned: Rs 216,receipt
+Card Payment Receipt | Merchant: Local Pharmacy | Purchase Date: 16-01-2026 | Transaction ID: 6249 | Amount Paid: Rs 37751 | Payment: Credit Card,receipt
+Freelance Invoice | Consultant: Global Traders | Client: Nova Retail | Work: Consulting | Invoice Ref: 2867 | Professional Fee: Rs 11932 | Tax: Rs 2147 | Total: Rs 14079,invoice
+Service Invoice | Vendor: ABC Solutions | Client: Nova Retail | Service: Software Development | Billing Date: 13-10-2026 | Service Charge: Rs 21706 | GST: Rs 1085 | Total Due: Rs 22791,invoice
+Subscription Invoice | Provider: Bright Systems | Subscriber: Metro Services | Plan: Software Development | Billing Period: 12-11-2026 | Base Charge: Rs 15900 | GST: Rs 795 | Amount Due: Rs 16695,invoice
+Purchase Receipt | Seller: Reliance Digital | Receipt No: 5907 | Date: 16-04-2025 | Items: Software License | Total Amount Paid: Rs 7157,receipt
+Product Specification | Product: Monitor | Features: Cloud synchronization and security | Dimensions: 15 x 15 x 4 cm | Technical Requirements: Secure authentication and reporting,unknown
+Commercial Invoice | Supplier: Global Traders | Customer: TechNova Pvt Ltd | Invoice ID: 1185 | Quantity: 3 | Unit Price: Rs 3146 | Tax: Rs 7646 | Amount Payable: Rs 50124,invoice
+Business Contract | Company A: Global Traders | Company B: TechNova Pvt Ltd | Contract Reference: 9436 | Service: Technical Support | Agreement Status: Approved,unknown
+Subscription Invoice | Provider: Global Traders | Subscriber: Nova Retail | Plan: Technical Support | Billing Period: 24-04-2025 | Base Charge: Rs 7269 | GST: Rs 363 | Amount Due: Rs 7632,invoice
+Customer Feedback | Customer: Neha Kulkarni | Product: Mobile Phone | Experience: 1 year data analysis | Comments: Good experience | Rating: 4/5,unknown
+Fuel Receipt | Station: Metro Mart | Date: 06-11-2026 | Fuel Quantity: 7 | Rate: Rs 964 | Total Paid: Rs 41252 | Payment: Cash,receipt
+Subscription Invoice | Provider: Global Traders | Subscriber: CloudWorks | Plan: Digital Marketing | Billing Period: 03-06-2025 | Base Charge: Rs 36928 | GST: Rs 4431 | Amount Due: Rs 41359,invoice
+University Admission | Student: Sneha Pawar | Program: Information Technology | Department: Sales | Admission Status: Pending,unknown
+Cash Receipt | Merchant: Local Pharmacy | Customer Payment Received | Product: Keyboard | Amount: Rs 21983 | Change Returned: Rs 428,receipt
+Commercial Invoice | Supplier: Global Traders | Customer: Nova Retail | Invoice ID: 3458 | Quantity: 7 | Unit Price: Rs 1939 | Tax: Rs 290 | Amount Payable: Rs 2713,invoice
+Receipt | Store: Fresh Store | Purchase Date: 04-01-2024 | Items: Headphones | Quantity: 5 | Total Paid: Rs 46256 | Payment Method: Cash,receipt
+Freelance Invoice | Consultant: ABC Solutions | Client: Bright Systems | Work: Technical Support | Invoice Ref: 5215 | Professional Fee: Rs 48910 | Tax: Rs 8803 | Total: Rs 57713,invoice
+Utility Invoice | Service Provider: Metro Services | Account Holder: CloudWorks | Bill Date: 13-11-2024 | Usage Charges: Rs 8193 | Taxes: Rs 409 | Total Payable: Rs 8602,invoice
+Receipt | Store: Reliance Digital | Purchase Date: 07-02-2026 | Items: Printer | Quantity: 6 | Total Paid: Rs 5421 | Payment Method: Cash,receipt
+Commercial Invoice | Supplier: Bright Systems | Customer: ABC Solutions | Invoice ID: 4328 | Quantity: 3 | Unit Price: Rs 232 | Tax: Rs 2309 | Amount Payable: Rs 15140,invoice
+Restaurant Receipt | Restaurant: Tech Shop | Date: 06-02-2024 | Items: Printer | Subtotal: Rs 26394 | Tax: Rs 4750 | Total Bill: Rs 31144,receipt
+Shipping Document | Sender: ABC Solutions | Receiver: Metro Services | Tracking Number: 8567 | Package: Office Chair | Quantity: 1 | Delivery Status: Approved,unknown
+Utility Invoice | Service Provider: Global Traders | Account Holder: Metro Services | Bill Date: 22-06-2025 | Usage Charges: Rs 30116 | Taxes: Rs 1505 | Total Payable: Rs 31621,invoice
+Delivery Note | Supplier: Metro Services | Customer: ABC Solutions | Delivery Reference: 3518 | Items: Mobile Phone | Quantity: 7 | Delivery Status: Completed,unknown
+Shipping Document | Sender: CloudWorks | Receiver: Nova Retail | Tracking Number: 7064 | Package: Headphones | Quantity: 8 | Delivery Status: Approved,unknown
+Payment Confirmation | Status: Completed | Amount: Rs 45106 | Transaction Reference: 8773 | Account Ending: 5957,unknown
+Employee Record | Employee: Aditya Shah | Department: Engineering | Joining Date: 24-07-2026 | Attendance: 95%,unknown
+Freelance Invoice | Consultant: ABC Solutions | Client: Bright Systems | Work: IT Services | Invoice Ref: 5471 | Professional Fee: Rs 5780 | Tax: Rs 289 | Total: Rs 6069,invoice
+Meeting Notes | Meeting Date: 05-07-2026 | Attendees: Rohan Deshmukh | Topics Discussed: Product development | Action Items: Update documentation,unknown
+Business Contract | Company A: Bright Systems | Company B: CloudWorks | Contract Reference: 2465 | Service: IT Services | Agreement Status: Pending,unknown
+Customer Feedback | Customer: Anjali More | Product: Keyboard | Experience: 1 year data analysis | Comments: Good experience | Rating: 5/5,unknown
+Utility Invoice | Service Provider: TechNova Pvt Ltd | Account Holder: Nova Retail | Bill Date: 24-09-2025 | Usage Charges: Rs 31043 | Taxes: Rs 3725 | Total Payable: Rs 34768,invoice
+Sales Invoice | Seller: Metro Services | Bill To: Nova Retail | Product: Software License | Quantity: 4 | Rate: Rs 3691 | Discount: Rs 816 | Tax: Rs 113 | Net Amount: Rs 1056,invoice
+Service Invoice | Vendor: Metro Services | Client: Global Traders | Service: Technical Support | Billing Date: 19-03-2025 | Service Charge: Rs 5179 | GST: Rs 258 | Total Due: Rs 5437,invoice
+Purchase Receipt | Seller: Fresh Store | Receipt No: 3450 | Date: 14-03-2024 | Items: Software License | Total Amount Paid: Rs 18394,receipt
+Sales Invoice | Seller: CloudWorks | Bill To: Bright Systems | Product: Monitor | Quantity: 5 | Rate: Rs 3050 | Discount: Rs 820 | Tax: Rs 1739 | Net Amount: Rs 36523,invoice
+Subscription Invoice | Provider: ABC Solutions | Subscriber: Bright Systems | Plan: Cloud Hosting | Billing Period: 05-05-2024 | Base Charge: Rs 35360 | GST: Rs 4243 | Amount Due: Rs 39603,invoice
+Quotation | Vendor: CloudWorks | Customer: Global Traders | Product: Software License | Quantity: 10 | Estimated Price: Rs 7133 | Valid Until: 09-01-2024,unknown
+Project Report | Project: Payment Platform | Budget: Rs 54451 | Billing Workflow: Automated workflow and user management | Payment Process: Contact vendor | Status: Completed,unknown
+Job Application | Applicant: Neha Kulkarni | Education: MBA Finance | Experience: 3 years project management | Skills: Java Communication Leadership,unknown
+Purchase Receipt | Seller: Tech Shop | Receipt No: 5230 | Date: 03-08-2024 | Items: Monitor | Total Amount Paid: Rs 44432,receipt
+Job Application | Applicant: Rahul Sharma | Education: B.Tech Information Technology | Experience: 2 years software development | Skills: Python SQL Machine Learning,unknown
+Invoice | Vendor: Bright Systems | Customer: Nova Retail | Invoice Number: 9446 | Payment Terms: Net 30 | Subtotal: Rs 36756 | Tax: Rs 4410 | Balance Due: Rs 41166,invoice
+Retail Receipt | Merchant: City Supermarket | Date: 11-04-2026 | Product: Mobile Phone | Price: Rs 2370 | Tax: Rs 4630 | Amount Paid: Rs 30353,receipt
+GST Invoice | Supplier: ABC Solutions | Customer: Metro Services | GSTIN: 27ABCDE4189F1Z5 | Invoice Date: 25-06-2026 | Taxable Value: Rs 10966 | GST Amount: Rs 1315 | Total Amount: Rs 12281,invoice
+Subscription Invoice | Provider: CloudWorks | Subscriber: ABC Solutions | Plan: Consulting | Billing Period: 13-12-2026 | Base Charge: Rs 30341 | GST: Rs 3640 | Amount Due: Rs 33981,invoice
+Business Requirements | Customer Billing Workflow | Vendor Onboarding | Tax Calculation | Payment Automation | Requirements: Automated workflow and user management,unknown
+Bank Account Statement | Account Holder: Amit Joshi | Account Number: 5607991799 | Opening Balance: Rs 3444 | Closing Balance: Rs 3616,unknown
+Cash Receipt | Merchant: Local Pharmacy | Customer Payment Received | Product: Monitor | Amount: Rs 19997 | Change Returned: Rs 313,receipt
+Pharmacy Receipt | Pharmacy: Local Pharmacy | Purchase Date: 13-05-2024 | Medicine: Keyboard | Amount: Rs 8114 | Payment Received,receipt
+Delivery Note | Supplier: ABC Solutions | Customer: Global Traders | Delivery Reference: 1515 | Items: Monitor | Quantity: 1 | Delivery Status: Completed,unknown
+Retail Receipt | Merchant: Local Pharmacy | Date: 08-01-2025 | Product: Monitor | Price: Rs 2706 | Tax: Rs 738 | Amount Paid: Rs 15499,receipt
+Retail Receipt | Merchant: City Supermarket | Date: 25-09-2025 | Product: Office Chair | Price: Rs 1372 | Tax: Rs 284 | Amount Paid: Rs 5968,receipt
+Freelance Invoice | Consultant: Metro Services | Client: TechNova Pvt Ltd | Work: Technical Support | Invoice Ref: 6431 | Professional Fee: Rs 21873 | Tax: Rs 2624 | Total: Rs 24497,invoice
+Bank Account Statement | Account Holder: Rohan Deshmukh | Account Number: 8287228425 | Opening Balance: Rs 9788 | Closing Balance: Rs 10277,unknown
+Invoice | Vendor: ABC Solutions | Customer: Metro Services | Invoice Number: 3837 | Payment Terms: Net 30 | Subtotal: Rs 32533 | Tax: Rs 5855 | Balance Due: Rs 38388,invoice
+Purchase Receipt | Seller: Local Pharmacy | Receipt No: 8987 | Date: 04-08-2024 | Items: Headphones | Total Amount Paid: Rs 26662,receipt
+Purchase Order | Buyer: Nova Retail | Supplier: Global Traders | Order Number: 4378 | Product: Keyboard | Quantity: 9 | Delivery Date: 09-09-2024,unknown
+Commercial Invoice | Supplier: ABC Solutions | Customer: ABC Solutions | Invoice ID: 1483 | Quantity: 5 | Unit Price: Rs 2392 | Tax: Rs 64 | Amount Payable: Rs 1347,invoice
+Commercial Invoice | Supplier: ABC Solutions | Customer: ABC Solutions | Invoice ID: 3547 | Quantity: 6 | Unit Price: Rs 2266 | Tax: Rs 385 | Amount Payable: Rs 2524,invoice
+Shopping Receipt | Shop: City Supermarket | Purchase Date: 02-02-2024 | Quantity: 8 | Product: Software License | Amount: Rs 40772 | Payment: UPI,receipt
+Delivery Note | Supplier: CloudWorks | Customer: TechNova Pvt Ltd | Delivery Reference: 6922 | Items: Mobile Phone | Quantity: 7 | Delivery Status: Completed,unknown
+Restaurant Receipt | Restaurant: Reliance Digital | Date: 12-02-2026 | Items: Monitor | Subtotal: Rs 7310 | Tax: Rs 365 | Total Bill: Rs 7675,receipt
+Meeting Notes | Meeting Date: 09-01-2026 | Attendees: Aditya Shah | Topics Discussed: Project planning | Action Items: Update documentation,unknown
+Purchase Receipt | Seller: City Supermarket | Receipt No: 6087 | Date: 14-09-2025 | Items: Stationery | Total Amount Paid: Rs 56780,receipt
+Invoice | Vendor: CloudWorks | Customer: Bright Systems | Invoice Number: 8793 | Payment Terms: Net 30 | Subtotal: Rs 29491 | Tax: Rs 5308 | Balance Due: Rs 34799,invoice
+Purchase Order | Buyer: Bright Systems | Supplier: ABC Solutions | Order Number: 2370 | Product: Office Chair | Quantity: 2 | Delivery Date: 07-03-2026,unknown
+Commercial Invoice | Supplier: CloudWorks | Customer: Global Traders | Invoice ID: 1793 | Quantity: 3 | Unit Price: Rs 3715 | Tax: Rs 4842 | Amount Payable: Rs 31743,invoice
+Subscription Invoice | Provider: ABC Solutions | Subscriber: Bright Systems | Plan: IT Services | Billing Period: 08-01-2024 | Base Charge: Rs 46192 | GST: Rs 5543 | Amount Due: Rs 51735,invoice
+Product Specification | Product: Mobile Phone | Features: Wireless connectivity and rechargeable battery | Dimensions: 15 x 15 x 4 cm | Technical Requirements: Secure authentication and reporting,unknown
+Meeting Notes | Meeting Date: 19-02-2025 | Attendees: Aditya Shah | Topics Discussed: Project planning | Action Items: Contact vendor,unknown
+Transaction Notification | Transaction Status: Successful | Amount: Rs 50608 | Reference Number: 6278 | Account: 8785,unknown
+Service Invoice | Vendor: Bright Systems | Client: CloudWorks | Service: IT Services | Billing Date: 27-12-2024 | Service Charge: Rs 13287 | GST: Rs 1594 | Total Due: Rs 14881,invoice
+Purchase Invoice | Supplier: ABC Solutions | Buyer: ABC Solutions | Order Ref: 3267 | Items: Monitor | Units: 9 | Unit Cost: Rs 1121 | Tax: Rs 1635 | Total Payable: Rs 10723,invoice
+Job Application | Applicant: Anjali More | Education: B.Sc Computer Science | Experience: 2 years software development | Skills: Python SQL Machine Learning,unknown
+Project Report | Project: Payment Platform | Budget: Rs 44816 | Billing Workflow: Secure authentication and reporting | Payment Process: Contact vendor | Status: Approved,unknown
+Service Invoice | Vendor: Nova Retail | Client: Metro Services | Service: Technical Support | Billing Date: 08-02-2024 | Service Charge: Rs 48590 | GST: Rs 8746 | Total Due: Rs 57336,invoice
+Payment Confirmation | Status: Completed | Amount: Rs 52425 | Transaction Reference: 6866 | Account Ending: 2271,unknown
+Retail Receipt | Merchant: Tech Shop | Date: 16-08-2025 | Product: Keyboard | Price: Rs 915 | Tax: Rs 415 | Amount Paid: Rs 8728,receipt
+Product Specification | Product: Office Chair | Features: Cloud synchronization and security | Dimensions: 20 x 10 x 5 cm | Technical Requirements: Scalable architecture and monitoring,unknown
+Cash Receipt | Merchant: Local Pharmacy | Customer Payment Received | Product: Stationery | Amount: Rs 46744 | Change Returned: Rs 396,receipt
+Card Payment Receipt | Merchant: Tech Shop | Purchase Date: 04-02-2026 | Transaction ID: 4154 | Amount Paid: Rs 24859 | Payment: Credit Card,receipt
+POS Receipt | Store: Metro Mart | Transaction: 4093 | Items Purchased: Mobile Phone | Subtotal: Rs 23753 | Tax: Rs 2850 | Total: Rs 26603 | Paid by Card,receipt
+Commercial Invoice | Supplier: Metro Services | Customer: CloudWorks | Invoice ID: 2290 | Quantity: 3 | Unit Price: Rs 1151 | Tax: Rs 8131 | Amount Payable: Rs 53307,invoice
+Card Payment Receipt | Merchant: Tech Shop | Purchase Date: 05-11-2025 | Transaction ID: 3485 | Amount Paid: Rs 38069 | Payment: Credit Card,receipt
+Subscription Invoice | Provider: CloudWorks | Subscriber: Global Traders | Plan: Digital Marketing | Billing Period: 25-06-2025 | Base Charge: Rs 805 | GST: Rs 40 | Amount Due: Rs 845,invoice
+Employee Record | Employee: Anjali More | Department: Finance | Joining Date: 23-03-2025 | Attendance: 95%,unknown
+Retail Receipt | Merchant: Tech Shop | Date: 10-12-2024 | Product: Office Chair | Price: Rs 853 | Tax: Rs 6357 | Amount Paid: Rs 41675,receipt
+Service Invoice | Vendor: Metro Services | Client: CloudWorks | Service: IT Services | Billing Date: 03-11-2025 | Service Charge: Rs 47251 | GST: Rs 5670 | Total Due: Rs 52921,invoice
+Job Application | Applicant: Amit Joshi | Education: B.Sc Computer Science | Experience: 2 years software development | Skills: Data Analysis Project Management,unknown
+GST Invoice | Supplier: Nova Retail | Customer: Metro Services | GSTIN: 27ABCDE6582F1Z5 | Invoice Date: 01-04-2026 | Taxable Value: Rs 43548 | GST Amount: Rs 2177 | Total Amount: Rs 45725,invoice
+Fuel Receipt | Station: Local Pharmacy | Date: 18-03-2024 | Fuel Quantity: 3 | Rate: Rs 4126 | Total Paid: Rs 47187 | Payment: Cash,receipt
+Sales Invoice | Seller: ABC Solutions | Bill To: TechNova Pvt Ltd | Product: Printer | Quantity: 2 | Rate: Rs 802 | Discount: Rs 684 | Tax: Rs 7899 | Net Amount: Rs 51785,invoice
+Sales Invoice | Seller: ABC Solutions | Bill To: Nova Retail | Product: Printer | Quantity: 10 | Rate: Rs 4820 | Discount: Rs 484 | Tax: Rs 6314 | Net Amount: Rs 41395,invoice
+Job Application | Applicant: Sneha Pawar | Education: MBA Finance | Experience: 6 months internship | Skills: Python SQL Machine Learning,unknown
+Cash Receipt | Merchant: Fresh Store | Customer Payment Received | Product: Laptop | Amount: Rs 15943 | Change Returned: Rs 110,receipt
+Pharmacy Receipt | Pharmacy: Tech Shop | Purchase Date: 20-09-2024 | Medicine: Monitor | Amount: Rs 15577 | Payment Received,receipt
+Service Invoice | Vendor: CloudWorks | Client: Bright Systems | Service: Cloud Hosting | Billing Date: 27-07-2025 | Service Charge: Rs 34492 | GST: Rs 1724 | Total Due: Rs 36216,invoice
+GST Invoice | Supplier: ABC Solutions | Customer: Metro Services | GSTIN: 27ABCDE2678F1Z5 | Invoice Date: 23-07-2024 | Taxable Value: Rs 45627 | GST Amount: Rs 2281 | Total Amount: Rs 47908,invoice
+Customer Feedback | Customer: Aditya Shah | Product: Keyboard | Experience: 2 years software development | Comments: Excellent service | Rating: 4/5,unknown
+Utility Invoice | Service Provider: ABC Solutions | Account Holder: CloudWorks | Bill Date: 20-07-2026 | Usage Charges: Rs 35956 | Taxes: Rs 1797 | Total Payable: Rs 37753,invoice
+Tax Invoice | Seller: CloudWorks | Buyer: Global Traders | Invoice No: 6224 | Date: 02-05-2024 | Subtotal: Rs 40746 | GST: Rs 7334 | Total: Rs 48080,invoice
+Tax Notice | Tax Authority: Global Traders | Taxpayer: Nova Retail | Notice Reference: 9226 | Tax Period: 21-08-2026 | Amount Mentioned: Rs 22297,unknown
+Retail Receipt | Merchant: City Supermarket | Date: 13-12-2025 | Product: Office Chair | Price: Rs 3567 | Tax: Rs 2737 | Amount Paid: Rs 17948,receipt
+Pharmacy Receipt | Pharmacy: City Supermarket | Purchase Date: 13-01-2025 | Medicine: Stationery | Amount: Rs 49184 | Payment Received,receipt
+POS Receipt | Store: Metro Mart | Transaction: 9364 | Items Purchased: Stationery | Subtotal: Rs 26000 | Tax: Rs 4680 | Total: Rs 30680 | Paid by Card,receipt
+Purchase Invoice | Supplier: Nova Retail | Buyer: Nova Retail | Order Ref: 4673 | Items: Laptop | Units: 1 | Unit Cost: Rs 1348 | Tax: Rs 1775 | Total Payable: Rs 37279,invoice
+Service Invoice | Vendor: Bright Systems | Client: Nova Retail | Service: Technical Support | Billing Date: 24-02-2025 | Service Charge: Rs 18523 | GST: Rs 3334 | Total Due: Rs 21857,invoice
+Job Application | Applicant: Rohan Deshmukh | Education: B.Sc Computer Science | Experience: 1 year data analysis | Skills: Python SQL Machine Learning,unknown
+Meeting Notes | Meeting Date: 14-03-2026 | Attendees: Aditya Shah | Topics Discussed: Marketing strategy | Action Items: Review requirements,unknown
+Fuel Receipt | Station: Reliance Digital | Date: 12-07-2024 | Fuel Quantity: 4 | Rate: Rs 1458 | Total Paid: Rs 38486 | Payment: Cash,receipt
+Invoice | Vendor: Metro Services | Customer: ABC Solutions | Invoice Number: 4335 | Payment Terms: Net 30 | Subtotal: Rs 21540 | Tax: Rs 3877 | Balance Due: Rs 25417,invoice
+Sales Invoice | Seller: Bright Systems | Bill To: CloudWorks | Product: Monitor | Quantity: 9 | Rate: Rs 744 | Discount: Rs 405 | Tax: Rs 1100 | Net Amount: Rs 23103,invoice
+Customer Feedback | Customer: Sneha Pawar | Product: Office Chair | Experience: 1 year data analysis | Comments: Needs improvement | Rating: 3/5,unknown
+Project Requirements | Project: Customer Portal | Objective: Automated workflow and user management | Milestones: Design and Implementation | Team: Rohan Deshmukh,unknown
+Sales Invoice | Seller: ABC Solutions | Bill To: Metro Services | Product: Mobile Phone | Quantity: 5 | Rate: Rs 3246 | Discount: Rs 884 | Tax: Rs 5108 | Net Amount: Rs 47676,invoice
+Tax Notice | Tax Authority: ABC Solutions | Taxpayer: Global Traders | Notice Reference: 6747 | Tax Period: 16-11-2025 | Amount Mentioned: Rs 31969,unknown
+Card Payment Receipt | Merchant: Local Pharmacy | Purchase Date: 04-10-2024 | Transaction ID: 2459 | Amount Paid: Rs 33698 | Payment: Credit Card,receipt
+Subscription Invoice | Provider: Global Traders | Subscriber: TechNova Pvt Ltd | Plan: Technical Support | Billing Period: 24-05-2025 | Base Charge: Rs 7786 | GST: Rs 934 | Amount Due: Rs 8720,invoice
+Retail Receipt | Merchant: Metro Mart | Date: 04-05-2024 | Product: Stationery | Price: Rs 2401 | Tax: Rs 1213 | Amount Paid: Rs 7957,receipt
+Quotation | Vendor: Metro Services | Customer: Bright Systems | Product: Keyboard | Quantity: 6 | Estimated Price: Rs 50317 | Valid Until: 22-07-2025,unknown
+POS Receipt | Store: Fresh Store | Transaction: 4173 | Items Purchased: Printer | Subtotal: Rs 14010 | Tax: Rs 700 | Total: Rs 14710 | Paid by Card,receipt
+Invoice | Vendor: ABC Solutions | Customer: Global Traders | Invoice Number: 9900 | Payment Terms: Net 30 | Subtotal: Rs 17589 | Tax: Rs 879 | Balance Due: Rs 18468,invoice
+GST Invoice | Supplier: TechNova Pvt Ltd | Customer: Global Traders | GSTIN: 27ABCDE4272F1Z5 | Invoice Date: 24-09-2024 | Taxable Value: Rs 48608 | GST Amount: Rs 2430 | Total Amount: Rs 51038,invoice
+Invoice | Vendor: CloudWorks | Customer: ABC Solutions | Invoice Number: 6728 | Payment Terms: Net 30 | Subtotal: Rs 3114 | Tax: Rs 373 | Balance Due: Rs 3487,invoice
+Commercial Invoice | Supplier: Global Traders | Customer: Metro Services | Invoice ID: 4696 | Quantity: 9 | Unit Price: Rs 1112 | Tax: Rs 7491 | Amount Payable: Rs 49112,invoice
+Delivery Note | Supplier: Metro Services | Customer: Nova Retail | Delivery Reference: 6944 | Items: Software License | Quantity: 5 | Delivery Status: Completed,unknown
+Hotel Reservation | Guest: Rahul Sharma | Check In: 16-12-2025 | Check Out: 09-02-2024 | Room: 412 | Booking Status: Confirmed,unknown
+Shopping Receipt | Shop: Reliance Digital | Purchase Date: 25-07-2024 | Quantity: 3 | Product: Office Chair | Amount: Rs 35327 | Payment: UPI,receipt
+Restaurant Receipt | Restaurant: City Supermarket | Date: 05-01-2024 | Items: Stationery | Subtotal: Rs 9646 | Tax: Rs 1736 | Total Bill: Rs 11382,receipt
+Job Application | Applicant: Sneha Pawar | Education: B.Tech Information Technology | Experience: 3 years project management | Skills: Java Communication Leadership,unknown
+Job Application | Applicant: Sneha Pawar | Education: B.E Computer Engineering | Experience: 1 year data analysis | Skills: Data Analysis Project Management,unknown
+Receipt | Store: Fresh Store | Purchase Date: 28-04-2025 | Items: Office Chair | Quantity: 5 | Total Paid: Rs 51041 | Payment Method: Cash,receipt
+Service Invoice | Vendor: Metro Services | Client: TechNova Pvt Ltd | Service: Cloud Hosting | Billing Date: 25-04-2026 | Service Charge: Rs 28852 | GST: Rs 5193 | Total Due: Rs 34045,invoice
+Fuel Receipt | Station: Metro Mart | Date: 06-03-2024 | Fuel Quantity: 8 | Rate: Rs 1669 | Total Paid: Rs 21880 | Payment: Cash,receipt
+POS Receipt | Store: Fresh Store | Transaction: 9490 | Items Purchased: Laptop | Subtotal: Rs 7491 | Tax: Rs 374 | Total: Rs 7865 | Paid by Card,receipt
+Card Payment Receipt | Merchant: Tech Shop | Purchase Date: 14-06-2025 | Transaction ID: 9870 | Amount Paid: Rs 33766 | Payment: Credit Card,receipt
+Restaurant Receipt | Restaurant: Local Pharmacy | Date: 06-01-2024 | Items: Headphones | Subtotal: Rs 22608 | Tax: Rs 4069 | Total Bill: Rs 26677,receipt
+Cash Receipt | Merchant: Metro Mart | Customer Payment Received | Product: Monitor | Amount: Rs 16307 | Change Returned: Rs 240,receipt
+Purchase Order | Buyer: ABC Solutions | Supplier: TechNova Pvt Ltd | Order Number: 6605 | Product: Printer | Quantity: 5 | Delivery Date: 01-12-2026,unknown
+Cash Receipt | Merchant: Fresh Store | Customer Payment Received | Product: Monitor | Amount: Rs 20945 | Change Returned: Rs 86,receipt
+Quotation | Vendor: Metro Services | Customer: ABC Solutions | Product: Laptop | Quantity: 10 | Estimated Price: Rs 39664 | Valid Until: 12-12-2025,unknown
+Commercial Invoice | Supplier: CloudWorks | Customer: Global Traders | Invoice ID: 9289 | Quantity: 6 | Unit Price: Rs 3866 | Tax: Rs 1873 | Amount Payable: Rs 39333,invoice
+Service Invoice | Vendor: ABC Solutions | Client: TechNova Pvt Ltd | Service: Digital Marketing | Billing Date: 16-02-2026 | Service Charge: Rs 7704 | GST: Rs 1386 | Total Due: Rs 9090,invoice
+Payment Confirmation | Status: Completed | Amount: Rs 16250 | Transaction Reference: 3033 | Account Ending: 9092,unknown
+Product Specification | Product: Office Chair | Features: Wireless connectivity and rechargeable battery | Dimensions: 15 x 15 x 4 cm | Technical Requirements: Secure authentication and reporting,unknown
+Service Invoice | Vendor: Nova Retail | Client: Bright Systems | Service: Software Development | Billing Date: 22-10-2026 | Service Charge: Rs 20865 | GST: Rs 3755 | Total Due: Rs 24620,invoice
+Employee Record | Employee: Anjali More | Department: Engineering | Joining Date: 26-09-2025 | Attendance: 81%,unknown
+University Admission | Student: Aditya Shah | Program: AI and Data Science | Department: Engineering | Admission Status: Completed,unknown
+Fuel Receipt | Station: Local Pharmacy | Date: 12-04-2025 | Fuel Quantity: 9 | Rate: Rs 2576 | Total Paid: Rs 33175 | Payment: Cash,receipt
+Utility Invoice | Service Provider: ABC Solutions | Account Holder: Bright Systems | Bill Date: 10-04-2024 | Usage Charges: Rs 1630 | Taxes: Rs 81 | Total Payable: Rs 1711,invoice
+Fuel Receipt | Station: Metro Mart | Date: 24-07-2025 | Fuel Quantity: 3 | Rate: Rs 1689 | Total Paid: Rs 14502 | Payment: Cash,receipt
+Subscription Invoice | Provider: Metro Services | Subscriber: Metro Services | Plan: Technical Support | Billing Period: 08-10-2024 | Base Charge: Rs 641 | GST: Rs 76 | Amount Due: Rs 717,invoice
+Transaction Notification | Transaction Status: Successful | Amount: Rs 34613 | Reference Number: 8030 | Account: 4962,unknown
+Receipt | Store: Tech Shop | Purchase Date: 18-08-2024 | Items: Monitor | Quantity: 10 | Total Paid: Rs 24159 | Payment Method: Cash,receipt
+Restaurant Receipt | Restaurant: Metro Mart | Date: 07-04-2026 | Items: Keyboard | Subtotal: Rs 20334 | Tax: Rs 1016 | Total Bill: Rs 21350,receipt
+Freelance Invoice | Consultant: Bright Systems | Client: Metro Services | Work: Cloud Hosting | Invoice Ref: 7861 | Professional Fee: Rs 32602 | Tax: Rs 5868 | Total: Rs 38470,invoice
+Restaurant Receipt | Restaurant: Reliance Digital | Date: 04-04-2024 | Items: Stationery | Subtotal: Rs 30678 | Tax: Rs 1533 | Total Bill: Rs 32211,receipt
+POS Receipt | Store: Metro Mart | Transaction: 8757 | Items Purchased: Software License | Subtotal: Rs 25884 | Tax: Rs 3106 | Total: Rs 28990 | Paid by Card,receipt
+Invoice | Vendor: ABC Solutions | Customer: Nova Retail | Invoice Number: 3621 | Payment Terms: Net 30 | Subtotal: Rs 26790 | Tax: Rs 3214 | Balance Due: Rs 30004,invoice
+Sales Invoice | Seller: CloudWorks | Bill To: TechNova Pvt Ltd | Product: Monitor | Quantity: 3 | Rate: Rs 948 | Discount: Rs 396 | Tax: Rs 6550 | Net Amount: Rs 42943,invoice
+Business Requirements | Customer Billing Workflow | Vendor Onboarding | Tax Calculation | Payment Automation | Requirements: Secure authentication and reporting,unknown
+Cash Receipt | Merchant: Tech Shop | Customer Payment Received | Product: Monitor | Amount: Rs 44146 | Change Returned: Rs 408,receipt
+Business Requirements | Customer Billing Workflow | Vendor Onboarding | Tax Calculation | Payment Automation | Requirements: Scalable architecture and monitoring,unknown
+Pharmacy Receipt | Pharmacy: City Supermarket | Purchase Date: 13-01-2024 | Medicine: Office Chair | Amount: Rs 28794 | Payment Received,receipt
+Subscription Invoice | Provider: CloudWorks | Subscriber: Bright Systems | Plan: Technical Support | Billing Period: 06-04-2024 | Base Charge: Rs 12978 | GST: Rs 648 | Amount Due: Rs 13626,invoice
+Project Requirements | Project: Inventory System | Objective: Automated workflow and user management | Milestones: Testing and Deployment | Team: Neha Kulkarni,unknown
+Card Payment Receipt | Merchant: Local Pharmacy | Purchase Date: 12-11-2024 | Transaction ID: 9165 | Amount Paid: Rs 4198 | Payment: Credit Card,receipt
+Restaurant Receipt | Restaurant: Tech Shop | Date: 19-06-2024 | Items: Stationery | Subtotal: Rs 39050 | Tax: Rs 7029 | Total Bill: Rs 46079,receipt
+Purchase Invoice | Supplier: Bright Systems | Buyer: Bright Systems | Order Ref: 3709 | Items: Mobile Phone | Units: 9 | Unit Cost: Rs 1924 | Tax: Rs 429 | Total Payable: Rs 2817,invoice
+Pharmacy Receipt | Pharmacy: Fresh Store | Purchase Date: 02-04-2024 | Medicine: Laptop | Amount: Rs 30348 | Payment Received,receipt
+Purchase Order | Buyer: ABC Solutions | Supplier: Bright Systems | Order Number: 8899 | Product: Printer | Quantity: 9 | Delivery Date: 20-01-2025,unknown
+Cash Receipt | Merchant: Reliance Digital | Customer Payment Received | Product: Stationery | Amount: Rs 22070 | Change Returned: Rs 130,receipt
+Product Specification | Product: Office Chair | Features: Cloud synchronization and security | Dimensions: 30 x 20 x 8 cm | Technical Requirements: Scalable architecture and monitoring,unknown
+Retail Receipt | Merchant: Metro Mart | Date: 13-12-2025 | Product: Mobile Phone | Price: Rs 2580 | Tax: Rs 8825 | Amount Paid: Rs 57855,receipt
+Subscription Invoice | Provider: ABC Solutions | Subscriber: CloudWorks | Plan: Software Development | Billing Period: 08-11-2025 | Base Charge: Rs 32899 | GST: Rs 3947 | Amount Due: Rs 36846,invoice
+Subscription Invoice | Provider: Global Traders | Subscriber: CloudWorks | Plan: IT Services | Billing Period: 15-05-2026 | Base Charge: Rs 48782 | GST: Rs 2439 | Amount Due: Rs 51221,invoice
+Fuel Receipt | Station: Fresh Store | Date: 10-05-2025 | Fuel Quantity: 4 | Rate: Rs 1412 | Total Paid: Rs 39716 | Payment: Cash,receipt
+University Admission | Student: Aditya Shah | Program: Computer Engineering | Department: Engineering | Admission Status: Active,unknown
+Quotation | Vendor: Global Traders | Customer: ABC Solutions | Product: Software License | Quantity: 10 | Estimated Price: Rs 6110 | Valid Until: 03-02-2026,unknown
+GST Invoice | Supplier: Metro Services | Customer: Global Traders | GSTIN: 27ABCDE9395F1Z5 | Invoice Date: 25-06-2025 | Taxable Value: Rs 5481 | GST Amount: Rs 657 | Total Amount: Rs 6138,invoice
+Receipt | Store: Fresh Store | Purchase Date: 28-07-2025 | Items: Software License | Quantity: 10 | Total Paid: Rs 51185 | Payment Method: Cash,receipt
+Employee Record | Employee: Priya Patil | Department: Sales | Joining Date: 21-11-2024 | Attendance: 81%,unknown
+Job Application | Applicant: Anjali More | Education: B.Sc Computer Science | Experience: 6 months internship | Skills: Data Analysis Project Management,unknown
+Job Application | Applicant: Anjali More | Education: B.Sc Computer Science | Experience: 1 year data analysis | Skills: Data Analysis Project Management,unknown
+Project Requirements | Project: Payment Platform | Objective: Secure authentication and reporting | Milestones: Testing and Deployment | Team: Amit Joshi,unknown
+Sales Invoice | Seller: CloudWorks | Bill To: Bright Systems | Product: Laptop | Quantity: 9 | Rate: Rs 3503 | Discount: Rs 433 | Tax: Rs 2513 | Net Amount: Rs 16477,invoice
