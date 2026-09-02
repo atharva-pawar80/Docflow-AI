@@ -101,3 +101,18 @@ for i, (actual, predicted) in enumerate(
     print(f"Predicted: {predicted}")
     print(f"Status:    {status}")
     print("-" * 40)
+
+print("\n========== FAILURE ANALYSIS ==========\n")
+
+for i, (text, actual, predicted) in enumerate(
+    zip(X_test, y_test, predictions),
+    start=1
+):
+
+    if actual != predicted:
+
+        print(f"Document {i}")
+        print(f"Actual:    {actual}")
+        print(f"Predicted: {predicted}")
+        print(f"Text:      {text}")
+        print("-" * 60)
