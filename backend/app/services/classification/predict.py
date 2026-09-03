@@ -1,7 +1,7 @@
 import joblib
 
 
-MODEL_PATH = "backend/app/models/document_classifier.joblib"
+MODEL_PATH = "backend/app/models/document_classifier_v2.joblib"
 
 
 classifier = joblib.load(MODEL_PATH)
