@@ -1,51 +1,68 @@
 import pandas as pd
 import joblib
 
-from sklearn.model_selection import (
-    train_test_split,
-    cross_val_score,
-    StratifiedKFold
-)
+from pathlib import Path
 
-
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
-
 from sklearn.metrics import (
-    classification_report,
     accuracy_score,
+    classification_report,
     confusion_matrix
 )
 
 
+# ============================================================
+# CONFIGURATION
+# ============================================================
 
-#data sources
-DATA_PATH = "data/processed/classification.csv"
-MODEL_PATH = "backend/app/models/document_classifier_v2.joblib"
-
-
-df = pd.read_csv(DATA_PATH)
-
-X = df["text"]
-y = df["label"]
-
-print("\n========== DATASET ==========\n")
-print("Total samples:", len(df))
-print("\nClass distribution:")
-print(y.value_counts())
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X,
-    y,
-    test_size=0.2,
-    random_state=42,
-    stratify=y
+DATA_PATH = Path("data/processed/company_documents.csv")
+MODEL_PATH = Path(
+    "backend/app/models/document_classifier.joblib"
 )
 
 
 # ============================================================
-# MODEL PIPELINE
+# 1. LOAD PROCESSED DATA
+# ============================================================
+
+print("\n========== LOADING DATA ==========\n")
+
+df = pd.read_csv(DATA_PATH)
+
+print(f"Total documents: {len(df)}")
+print(f"Columns: {df.columns.tolist()}")
+
+X = df["text"]
+y = df["label"]
+
+
+print("\nClass distribution:")
+print(y.value_counts())
+
+
+# ============================================================
+# 2. TRAIN / TEST SPLIT
+# ============================================================
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.20,
+    random_state=42,
+    stratify=y
+)
+
+print("\n========== DATA SPLIT ==========\n")
+
+print(f"Training samples: {len(X_train)}")
+print(f"Testing samples: {len(X_test)}")
+
+
+# ============================================================
+# 3. ML PIPELINE
 # ============================================================
 
 classifier = Pipeline([
@@ -66,47 +83,52 @@ classifier = Pipeline([
 
 
 # ============================================================
-# TRAIN
+# 4. TRAIN MODEL
 # ============================================================
+
+print("\n========== TRAINING ==========\n")
 
 classifier.fit(X_train, y_train)
 
+print("✓ Model training complete")
+
 
 # ============================================================
-# TEST EVALUATION
+# 5. TEST SET EVALUATION
 # ============================================================
 
 y_pred = classifier.predict(X_test)
 
-accuracy = accuracy_score(y_test, y_pred)
+accuracy = accuracy_score(
+    y_test,
+    y_pred
+)
 
 print("\n========== TEST RESULTS ==========\n")
 
-print("Testing Accuracy:", accuracy)
+print(f"Accuracy: {accuracy:.4f}")
 
-print("\nClassification Report:")
-print(classification_report(y_test, y_pred))
+print("\nClassification Report:\n")
 
-print("\nConfusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
-
-
-# ============================================================
-# TRAINING ACCURACY
-# ============================================================
-
-train_pred = classifier.predict(X_train)
-
-train_accuracy = accuracy_score(
-    y_train,
-    train_pred
+print(
+    classification_report(
+        y_test,
+        y_pred
+    )
 )
 
-print("\nTraining Accuracy:", train_accuracy)
+print("Confusion Matrix:\n")
+
+print(
+    confusion_matrix(
+        y_test,
+        y_pred
+    )
+)
 
 
 # ============================================================
-# CROSS VALIDATION
+# 6. CROSS-VALIDATION
 # ============================================================
 
 print("\n========== 5-FOLD CROSS-VALIDATION ==========\n")
@@ -134,14 +156,23 @@ for i, score in enumerate(
     print(f"Fold {i}: {score:.4f}")
 
 
-print("\nMean CV Accuracy:", cv_scores.mean())
+print(
+    f"\nMean CV Accuracy: {cv_scores.mean():.4f}"
+)
 
-print("Standard Deviation:", cv_scores.std())
+print(
+    f"CV Standard Deviation: {cv_scores.std():.4f}"
+)
 
 
 # ============================================================
-# SAVE MODEL
+# 7. SAVE MODEL
 # ============================================================
+
+MODEL_PATH.parent.mkdir(
+    parents=True,
+    exist_ok=True
+)
 
 joblib.dump(
     classifier,
@@ -149,6 +180,7 @@ joblib.dump(
 )
 
 print(
-    f"\nModel saved to: {MODEL_PATH}"
+    f"\n✓ Model saved to: {MODEL_PATH}"
 )
 
+print("\n========== TRAINING COMPLETE ==========\n")

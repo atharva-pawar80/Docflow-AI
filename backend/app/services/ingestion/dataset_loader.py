@@ -1,54 +1,43 @@
-from datasets import load_dataset
 import pandas as pd
 from pathlib import Path
 
-
-DATASET_NAME = "AyoubChLin/CompanyDocuments"
-
-RAW_DIR = Path("data/raw")
-RAW_FILE = RAW_DIR / "company_documents_raw.csv"
+from backend.app.services.ingestion.validator import validate_dataset
 
 
-def load_company_documents() -> pd.DataFrame:
-    """
-    Download and load the CompanyDocuments dataset
-    from Hugging Face.
-    """
+RAW_FILE = Path("data/raw/company_documents_raw.csv")
+
+
+def load_dataset() -> pd.DataFrame:
+    """Load the raw CompanyDocuments dataset."""
 
     print("\n========== DATA INGESTION ==========\n")
-    print(f"Loading dataset: {DATASET_NAME}")
+    print(f"Loading dataset from: {RAW_FILE}")
 
-    dataset = load_dataset(
-        DATASET_NAME,
-        split="train"
-    )
+    if not RAW_FILE.exists():
+        raise FileNotFoundError(
+            f"Dataset not found: {RAW_FILE}"
+        )
 
-    df = dataset.to_pandas()
+    df = pd.read_csv(RAW_FILE)
 
-    print(f"Loaded {len(df)} documents")
-    print("\nOriginal columns:")
-    print(df.columns.tolist())
+    print(f"✓ Dataset loaded")
+    print(f"✓ Documents: {len(df)}")
+    print(f"✓ Columns: {len(df.columns)}")
 
     return df
 
 
-def save_raw_dataset(df: pd.DataFrame) -> None:
-    """
-    Save the original dataset locally without modifying it.
-    """
+def ingest_dataset() -> pd.DataFrame:
+    """Load and validate the raw dataset."""
 
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    df = load_dataset()
 
-    df.to_csv(
-        RAW_FILE,
-        index=False
-    )
+    validate_dataset(df)
 
-    print(f"\nRaw dataset saved to: {RAW_FILE}")
+    return df
 
 
 if __name__ == "__main__":
-    df = load_company_documents()
-    save_raw_dataset(df)
+    df = ingest_dataset()
 
-    print("\n========== INGESTION COMPLETE ==========\n")
+    print("\n========== INGESTION SUCCESSFUL ==========\n")
