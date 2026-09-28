@@ -1,8 +1,10 @@
 from pathlib import Path
 
-from fastapi import APIRouter, File, UploadFile, HTTPException
+from fastapi import APIRouter, File, UploadFile, HTTPException, Depends
+from sqlalchemy.orm import Session
 
-
+from backend.app.database import get_db
+from backend.app.models.db_models import Document
 from backend.app.services.pipeline.document_pipeline import process_document
 from backend.app.services.rag.chain import add_document_to_vectorstore
 
@@ -15,7 +17,7 @@ ALLOWED_EXTENSIONS = {".pdf", ".png", ".jpg", ".jpeg"}
 
 
 @router.post("/upload")
-async def upload_document(file: UploadFile = File(...)):
+async def upload_document(file: UploadFile = File(...), db: Session = Depends(get_db)):
 
     file_extension = Path(file.filename).suffix.lower()
 
@@ -31,24 +33,37 @@ async def upload_document(file: UploadFile = File(...)):
 
     with open(file_path, "wb") as buffer:
         buffer.write(content)
-        
-    doc_id = file.filename
-        
+
     try:
         # Step 1: Process and classify document
         result = process_document(str(file_path))
-        
-        # Step 2: Add to Vectorstore for RAG
-        add_document_to_vectorstore(doc_id, result["text"])
-        
+
+        # Step 2: Save to database
+        doc = Document(
+            filename=file.filename,
+            file_path=str(file_path),
+            document_type=result.get("document_type"),
+            confidence=result.get("confidence"),
+            probabilities=result.get("probabilities"),
+            extracted_text=result.get("text"),
+        )
+        db.add(doc)
+        db.commit()
+        db.refresh(doc)
+
+        # Step 3: Add to Vectorstore for RAG using the DB-generated ID
+        add_document_to_vectorstore(doc.id, result["text"])
+
     except Exception as e:
+        db.rollback()
         raise HTTPException(status_code=500, detail=f"Processing failed: {str(e)}")
 
     return {
-        "doc_id": doc_id,
-        "filename": file.filename,
+        "doc_id": doc.id,
+        "filename": doc.filename,
         "status": "uploaded and processed",
         "path": str(file_path),
-        "document_type": result.get("document_type"),
-        "confidence": result.get("confidence")
+        "document_type": doc.document_type,
+        "confidence": doc.confidence,
+        "probabilities": doc.probabilities,
     }

@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 
 from langchain_groq import ChatGroq
+from backend.app.config import GROQ_API_KEY
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
@@ -25,14 +26,13 @@ vectorstore = Chroma(
 
 def get_llm():
     # Require GROQ_API_KEY environment variable to be set
-    api_key = os.getenv("GROQ_API_KEY", "")
-    if not api_key:
+    if not GROQ_API_KEY:
         raise ValueError("GROQ_API_KEY environment variable is missing")
     
     return ChatGroq(
         model="llama3-8b-8192",
         temperature=0,
-        api_key=api_key
+        api_key=GROQ_API_KEY
     )
 
 def add_document_to_vectorstore(doc_id: str, text: str):
