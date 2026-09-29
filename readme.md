@@ -66,6 +66,18 @@ DocFlow AI is an intelligent document processing and automation platform. It use
 
 ---
 
+## Classification Dataset
+
+To add synthetic examples for the `invoice`, `receipt`, and `unknown` classes to the classification dataset, run this command from the repository root:
+
+```bash
+python backend/app/services/classification/generate_dataset.py
+```
+
+The script adds up to 40 examples per class, removes rows with duplicate text, and saves the updated dataset to `data/classification/documents.csv`. It updates that CSV in place, so back it up first if you need to preserve the original dataset. The existing CSV must be present before running the script.
+
+---
+
 ## Technical Details
 
 - **ML Pipeline**: `backend/app/services/pipeline/document_pipeline.py` extracts text and calls the predictor.
